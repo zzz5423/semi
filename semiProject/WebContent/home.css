@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+body {
+   background: #FDD1C9;
+}
+
+#divPage {
+   width: 1700px;
+   background: #F4F0D4;
+   box-shadow: 10px 10px 10px #FCB2A9;
+   margin: auto;
+   margin-top: 40px;
+   padding: 0px 0px 20px 0px;
+}
+
+#divMenu {
+   margin: auto;
+   overflow: hidden;
+   background: #B1D7B8;
+   padding: 15px 0px 15px 20px;
+   border-bottom: 1px solid #FCB2A9;
+}
+
+#divMenu .item {
+   width: 100px;
+   float: left;
+   text-align: center;
+}
+
+#divHeader {
+   text-align: center;
+   font-size: 30px;
+   text-shadow: 3px 3px 3px #F16E88;
+}
+
+#divCondition {
+   width: 780px;
+   margin: auto;
+   overflow: hidden;
+   padding: 5px 10px 5px 10px;
+   border: 1px solid #F16E88;
+   margin-bottom: 10px;
+   background: #FCB2A9;
+}
+
+#divSearch {
+   float: left;
+}
+
+#divSort {
+   float: right;
+}
+
+#tbl {
+   width: 800px;
+   margin: auto;
+   overflow: hidden;
+   text-align: center;
+}
+
+#tbl1 {
+   width: 1700px;
+   margin: auto;
+   overflow: hidden;
+   text-align: center;
+}
+
+#loginTbl {
+   width: 400px;
+   margin: auto;
+   overflow: hidden;
+   text-align: center;
+}
+
+#pagination {
+   width: 800px;
+   margin: auto;
+   text-align: center;
+   padding: 10px 0px 10px 0px;
+   margin-bottom:50px;
+}
+
+.price, .quantity, .sum {
+   text-align: right;
+}
+
+a {
+   text-decoration: none;
+   color: white;
+}
+
+a:hover {
+   font-weight: bold;
+}
+
+select, input, button {
+   height: 23px;
+}
+
+table {
+   border-collapse: collapse;
+   background: white;
+}
+
+td {
+   border: 1px solid #F16E88;
+   height: 30px;
+   font-size: 12px;
+   padding: 0px 5px 0px 5px;
+}
+
+table .title {
+   background: #FCB2A9;
+   text-align: center;
+   color: white;
+}
+
+table .row:hover {
+   background: #FEE1BE;
+}
+
+input, button, select, textarea {
+   font-size: 12px;
+}
+
+input[type='radio'], input[type='checkbox'] {
+   height: 12px;
+}
+
+td button {
+   text-align: center;
+}
+
+textarea {
+   margin: 5px 0px 5px 0px;
+}
+
+#tblInfo, #tblOrder {
+   width: 800px;
+   margin: auto;
+   overflow: hidden;
+   margin-bottom: 10px;
+   margin-top: 10px;
+   text-align: center;
+}
+
+#tblPurchase, #tblOrder {
+   width: 800px;
+   margin: auto;
+   overflow: hidden;
+   margin-bottom: 10px;
+}
+
+.box {
+   background: white;
+   width: 177px;
+   height:220px;
+   float: left;
+   text-align: center;
+   margin: 5px;
+   margin-top: 15px;
+   margin-bottom: 10px;
+   padding: 5px;
+   padding-top:20px;
+   border: 1px solid #F16E88;
+}
+
+#box {
+	margin:auto;
+}
+
+.r_id, .u_id {
+   font-size: 12px;
+   margin: auto;
+}
+
+.r_name {
+   font-size: 13px;
+   margin: auto;
+}
+
+.image {
+   margin: auto;
+   margin-top:7px;
+   padding: 5px;
+}
